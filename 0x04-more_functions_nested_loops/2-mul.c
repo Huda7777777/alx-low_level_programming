@@ -3,7 +3,7 @@
 /**
  * mul - function that multiplies two integers
  *
- * @n: integar1
+ * @a: integar1
  * @b: integar2
  * Return: Always 0
  */
