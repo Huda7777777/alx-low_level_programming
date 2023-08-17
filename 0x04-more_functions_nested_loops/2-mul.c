@@ -5,7 +5,7 @@
  *
  * @n: integar1
  * @b: integar2
- * Return: Alwas 0
+ * Return: Always 0
  */
 
 int mul((int a, int b)
