@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print fizzbuzz
- * Return: Alwas 0
+ * Return: Always 0
  */
 int main(void)
 {
