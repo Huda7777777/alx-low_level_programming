@@ -6,13 +6,14 @@
  * @p: string param
  * Return: string
  */
-char *string_toupper(char *);
+
+char *string_toupper(char *p)
 {
 	int a = 0;
 
 	while (p[a])
 	{
-		if ([p] >= 7 && <= 122)
+		if ([p] >= 97 && <= 122)
 		{
 			p[a] -= 32;
 		}
