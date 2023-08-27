@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * rot 13 - encides a string using rot 13
+ * rot13 - encides a string using rot 13
  *
  * @s: input string
  * Return: the pointer of the dest
@@ -17,7 +17,7 @@ char *rot13(char *s)
 
 	while (*(s + a) != '\0')
 	{
-		for (i = 0; i < 25; i++)
+		for (i = 0; i < 52; i++)
 		{
 			if (*(s + a) == letter[i])
 			{
